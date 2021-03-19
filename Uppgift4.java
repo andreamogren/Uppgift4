@@ -3,11 +3,11 @@ import java.util.Scanner;
 
 /**
  * Program som ber användaren om ett antal tal att slumpa fram och skriver ut resultatet i olika format
- * 
- * 1. Be användaren om ett antal nummer att slumpa fram (kontrollera att inmatningen är av korrekt format)
+ *
+ * 1. Be användaren om ett antal tal att slumpa fram (kontrollera att inmatningen är av korrekt format)
  * 2. Slumpa fram numren och spara i en array
  * 3. Kopiera denna array och sortera
- * 4. Kolla vilka tal som är jämna och ojämna, spara antal i två variabler
+ * 4. Kolla vilka tal som är jämna och ojämna, spara antalen i två variabler
  * 5. Skriv ut resultat (original array, sorterad, totalt antal tal samt udda och jämna tal)
  *
  * @author Andrea Mogren, andmog-0
@@ -33,20 +33,21 @@ public class Uppgift4
       do
       {
          System.out.print("Ange hur många tal du vill slumpa fram (max 100 st): ");
+
+         // Om användaren matar in felaktig ett felaktigt värde, fånga felet och starta om loopen
          try
          {
             desiredAmount = input.nextInt();
-            // Om användaren matar in felaktig input, fånga felet och starts om loopen
          } catch (Exception e)
          {
             System.out.printf("Felaktig inmatning. Vänligen ange ett heltal skrivet med siffror.%n");
 
-            // Rensa felaktig input
+            // Rensa felaktig inmatning
             input.nextLine();
             continue;
          }
 
-         // Kolla så att talet inte överstiger 100
+         // Kolla så att talet inte överstiger 100, starta isåfall om
          if (desiredAmount > 100)
          {
             System.out.printf("För stort tal, försök igen.%n");
