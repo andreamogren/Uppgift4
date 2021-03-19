@@ -2,8 +2,6 @@ import java.util.Arrays;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-import static java.lang.Integer.parseInt;
-
 /**
  * Program som ber användaren om ett antal tal att slumpa fram och skriver ut i olika format
  *
