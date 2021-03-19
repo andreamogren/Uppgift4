@@ -3,9 +3,9 @@ import java.util.Scanner;
 import java.util.regex.Pattern;
 
 /**
- * Program som ber användaren om ett antal tal att slumpa fram och skriver ut i olika format
+ * Program som ber användaren om ett antal tal att slumpa fram och skriver ut resultatet i olika format
  *
- * 1. Be användaren om ett antal nummer att slumpa fram (kontrollera att inmatning är av korrekt format)
+ * 1. Be användaren om ett antal nummer att slumpa fram (kontrollera att inmatningen är av korrekt format)
  * 2. Slumpa fram numren och spara i en array
  * 3. Kopiera denna array och sortera
  * 4. Kolla vilka tal som är jämna och ojämna, spara antal i två variabler
@@ -18,7 +18,7 @@ public class Uppgift4
 {
    public static void main(String[] args)
    {
-      // Deklarera variabler och initiera konstanter
+      // Deklarera variabler och konstanter
       final int MIN = 0;
       final int MAX = 999;
       boolean wrongInput = true;
