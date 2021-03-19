@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 /**
  * Program som ber användaren om ett antal tal att slumpa fram och skriver ut resultatet i olika format
- * <p>
+ * 
  * 1. Be användaren om ett antal nummer att slumpa fram (kontrollera att inmatningen är av korrekt format)
  * 2. Slumpa fram numren och spara i en array
  * 3. Kopiera denna array och sortera
