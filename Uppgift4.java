@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 import static java.lang.Integer.parseInt;
 
 /**
- * Program som ber användaren om ett antal tal att slumpa fram och skriva ut i olika format
+ * Program som ber användaren om ett antal tal att slumpa fram och skriver ut i olika format
  *
  * 1. Be användaren om ett antal nummer att slumpa fram (kontrollera att inmatning är av korrekt format)
  * 2. Slumpa fram numren och spara i en array
